@@ -1,11 +1,10 @@
 "use client";
-import { useState } from 'react';
+import { ReactNode, useState } from "react";
 import './globals.css';
 import Link from 'next/link';
 
 
-
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   const[showNav,setShowNav]=useState(false);
   return (
     <html lang='en'
