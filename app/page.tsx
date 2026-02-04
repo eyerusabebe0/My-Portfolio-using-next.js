@@ -202,12 +202,12 @@ export default function Portfolio() {
         <p className="text-zinc-300 text-lg">
           GitHub:
           <a
-            href="https://github.com/jeryabebe1321"
+            href="https://github.com/eyerusabebe0"
             target="_blank"
             rel="noopener noreferrer"
             className="ml-2 text-indigo-400 hover:underline"
           >
-            jeryabebe1321
+            eyerusabebe0
           </a>
         </p>
 
