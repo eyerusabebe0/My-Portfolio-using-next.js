@@ -1,13 +1,13 @@
    
       export default function About(){
         return(
-      <section className="text-center py-24 px-6 max-w-10xl mx-auto bg-zinc-900  ">
+      <section className="min-h-screen  text-center py-24 px-6 max-w-10xl mx-auto bg-zinc-900  ">
         <h3 className="text-3xl text-center font-semibold  text-white font-bold underline decoration-indigo-400 decoration-4 underline-offset-8 mb-14 ">About Me</h3>
 
         
      
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 justify-items-center">
             <div className="bg-transparent max-w-md mx-auto border border-indigo-400 p-10 rounded-xl shadow text-center hover:translate-y-2 transform transition-all duration-300 ease-out ">
                    <h2 className="text-xl font-semibold mb-4 text-white"> <span className="mr-1">✨</span> Who I am</h2>
         <p className="text-zinc-300 leading-relaxed">

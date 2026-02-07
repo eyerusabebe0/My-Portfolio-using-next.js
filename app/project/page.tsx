@@ -1,10 +1,10 @@
 
  export default function Project(){
         return(
-<section className="py-20 px-6 bg-zinc-900">
+<section className="min-h-screen flex flex-col items-center justify-center py-20 px-6 bg-zinc-900">
         <h3 className="text-3xl font-semibold mb-12 text-center text-indigo-400 underline decoration-indigo-400 decoration-4 underline-offset-8">Projects</h3>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="max-w-5xl mx-auto grid grid-cols-1 items-center justify-items-center md:grid-cols-2 gap-6">
         <article className="p-6 rounded-xl shadow-lg bg-zinc-950 hover:shadow-2xl transition hover:scale-[1.02] ">
           <h4 className="text-2xl font-bold mb-3 text-indigo-400">Bahir Dar University Student Union Selection System</h4>
           <ul className="list-disc list-inside mb-3 text-zinc-100">

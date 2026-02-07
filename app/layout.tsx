@@ -6,10 +6,10 @@ import Link from 'next/link';
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="min-h-screen text-gray-100 flex flex-col">
+      <body className="min-h-screen text-gray-100 relative w-full flex flex-col">
 
-        <header className="bg-zinc-950 shadow-md py-4">
-          <nav className="max-w-6xl mx-auto px-6 text-left">
+        <header className="bg-zinc-950 fixed absolute shadow-md py-4">
+          <nav className="max-w-6xl  mx-auto px-6 text-left">
             
             <ul className="flex flex-col sm:flex-row gap-4 text-sm text-gray-100 font-medium">
               <li className="px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-600 hover:scale-105 transition transform text-center">
